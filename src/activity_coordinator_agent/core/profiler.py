@@ -70,7 +70,7 @@ class ActivityProfilerLogic:
     
     @property
     def output_schema(self):
-        return ResidentProfile
+        return ActivityProfile
 
     @property
     def system_prompt(self) -> str:

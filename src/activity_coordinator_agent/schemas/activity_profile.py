@@ -19,7 +19,7 @@ class ActivityProfile(BaseModel):
     noise_level: Literal["Quiet", "Moderate", "Loud"]
     
     # 4. Content Analysis
-    reminiscence_era: str = Field(
+    reminiscence_era: str | None = Field(
         default=None, 
         description="If relevant, the specific decade or era (e.g., '1950s', 'Wartime'). Useful for history matching."
     )
