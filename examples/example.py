@@ -75,7 +75,7 @@ def run_example(
     activity_example_path = Path(activity_example_path).resolve()
     
     # Data directory is sibling to this script + "data"
-    base_data_path = Path(__file__).resolve().parent / "data"
+    base_data_path = Path(__file__).resolve().parent / "output"
     
     current_runtime_folder = None
     
